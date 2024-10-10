@@ -10,6 +10,9 @@ Markdown taglerini deneyim
 ##### Merhaba Dünya
 
 ###### Merhaba Dünya
+
+---
+
 İşte temel Markdown komutlarını ve işlevlerini içeren bir tablo:
 
 | Markdown Komutu                  | Kullanım                          | Açıklama                              |
