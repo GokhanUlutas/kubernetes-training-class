@@ -15,6 +15,12 @@ Markdown taglerini deneyim
 
 İşte temel Markdown komutlarını ve işlevlerini içeren bir tablo:
 
+*italic*
+
+**bold yazı**
+
+
+
 | Markdown Komutu                  | Kullanım                          | Açıklama                              |
 |----------------------------------|----------------------------------|---------------------------------------|
 | Başlıklar                        | `# Başlık 1`                     | H1 başlık için.                      |
