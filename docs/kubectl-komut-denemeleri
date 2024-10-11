@@ -30,3 +30,6 @@ kubectl describe pod coredns -n kube-system
 etcd-minikube adlı podun logları aşağıdadır.
 kubectl logs etcd-minikube -n kube-system
 
+
+kubectl apply -f pod-example.yaml
+
