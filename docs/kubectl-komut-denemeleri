@@ -1,0 +1,32 @@
+# kubectl pods komutlar
+
+Aktif olarak hangi namespacete olunduğunu gösterir.
+
+kubectl config get-contexts $(kubectl config current-context)
+
+
+kubectl get pods -n kube-system
+
+ kubectl get pods -o wide --all-namespaces
+ ![alt text](./images/pods-all-namespaces.png)
+
+kubectl get services 
+![kube-system-services](./images/kubectl-services.png)
+
+
+
+``` 
+kubectl get deployments -n kube-system
+
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+coredns   1/1     1            1           9m7s
+```
+
+coredns pod u ile ilgili detaylı bilgileri verir.
+
+kubectl describe pod coredns -n kube-system
+
+
+etcd-minikube adlı podun logları aşağıdadır.
+kubectl logs etcd-minikube -n kube-system
+
