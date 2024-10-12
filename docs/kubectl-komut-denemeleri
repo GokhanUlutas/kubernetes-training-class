@@ -11,8 +11,7 @@ kubectl get pods -n kube-system
  ![alt text](./images/pods-all-namespaces.png)
 
 kubectl get services 
-![kube-system-services](./images/kubectl-services.png)
-
+![kube-system-services](./images/kube-system-services.png)
 
 
 ``` 
