@@ -14,7 +14,7 @@ kube-system   kube-scheduler-minikube            1/1     Running   0            
 kube-system   storage-provisioner                1/1     Running   1 (63m ago)   63m   192.168.49.2   minikube   <none>           <none>
 ```
 
-## kube-system namespace indeki podların canlı takibi
+## kube-system namespace indeki podların canlı değişiklik takibi
 
 ```bash
 $ kubectl get pods -w -n kube-system
