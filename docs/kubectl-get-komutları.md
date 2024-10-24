@@ -27,3 +27,9 @@ coredns   1/1     1            1           91m
 NAME         DESIRED   CURRENT   READY   UP-TO-DATE   AVAILABLE   NODE SELECTOR            AGE
 kube-proxy   1         1         1       1            1           kubernetes.io/os=linux   92m
 ```
+
+```bash
+$ kubectl get deployments coredns -n kube-system
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+coredns   1/1     1            1           4h8m
+```
