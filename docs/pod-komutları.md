@@ -14,4 +14,18 @@ kube-system   kube-scheduler-minikube            1/1     Running   0            
 kube-system   storage-provisioner                1/1     Running   1 (63m ago)   63m   192.168.49.2   minikube   <none>           <none>
 ```
 
+## kube-system namespace indeki podların canlı takibi
+
+```bash
+$ kubectl get pods -w -n kube-system
+NAME                               READY   STATUS    RESTARTS      AGE
+coredns-6f6b679f8f-lvhkj           1/1     Running   0             78m
+etcd-minikube                      1/1     Running   0             78m
+kube-apiserver-minikube            1/1     Running   0             78m
+kube-controller-manager-minikube   1/1     Running   0             78m
+kube-proxy-x8r4c                   1/1     Running   0             78m
+kube-scheduler-minikube            1/1     Running   0             78m
+storage-provisioner                1/1     Running   1 (78m ago)   78m
+```
+
 ##
